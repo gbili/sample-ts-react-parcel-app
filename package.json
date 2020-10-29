@@ -1,0 +1,24 @@
+{
+  "name": "bbrstats",
+  "version": "1.0.0",
+  "description": "Statistiques de la BBR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir build/debug",
+    "build": "parcel build src/index.html --out-dir build/release --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillermo Pages <mail@guillermo.at> (https://guillermo.at)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "recharts": "1.8.5"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.55",
+    "@types/react-dom": "16.9.9",
+    "@types/chartjs": "0.0.31",
+    "typescript": "4.0.5"
+  }
+}
