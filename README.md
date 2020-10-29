@@ -8,6 +8,8 @@ This is all thanks to Parcel.
 
 ```sh
 npm run build
+# or
+npm run dev
 ```
 
 You will see an bundle : `./build/release/<src.f69400.js>`
